@@ -6,7 +6,7 @@ phina.define('MainScene', {
 
   init: function(options) {
     this.superInit(options);
-    this.backgroundColor = "#6BEFD5";
+    this.backgroundColor = "#3970b3";
 
     var self = this;
     var gx = this.gridX;
