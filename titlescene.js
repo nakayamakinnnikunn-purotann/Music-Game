@@ -11,8 +11,8 @@ phina.define('TitleScene', {
 
     // タイトルラベル
     Label({
-      text: "SUKUPHINA",
-      fill: "white",
+      text: "Music-Game",
+      fill: "black",
       stroke: "#2F3CEC",
       strokeWidth: 6,
       fontSize: 100,
@@ -21,8 +21,8 @@ phina.define('TitleScene', {
     .addChildTo(this)
 
     var touchLabel = Label({
-      text: "タップでSTART",
-      fill: "white",
+      text: "START",
+      fill: "black",
       stroke: "#2F3CEC",
       strokeWidth: 6,
       fontSize: 64,
