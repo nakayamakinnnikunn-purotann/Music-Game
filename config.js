@@ -14,19 +14,19 @@ var MUSIC_START_DELAY = 2000;
 var RATING_TABLE = {
   perfect: {
     score: 1000,
-    range: 34, //ms
+    range: 75, //ms
   },
   great: {
     score: 500,
-    range: 64, //ms
+    range: 100, //ms
   },
   good: {
     score: 100,
-    range: 90, //ms
+    range: 125, //ms
   },
   miss: {
     score: 0,
-    range: 134, //ms
+    range: 150, //ms
   },
 };
 
